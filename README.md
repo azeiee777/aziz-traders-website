@@ -15,12 +15,16 @@ Production-ready static website structure for Aziz Traders.
 │   ├── images
 │   │   ├── hero-wood.jpg
 │   │   ├── product-doors.jpg
+│   │   ├── product-doors.svg
 │   │   ├── product-hardware.jpg
 │   │   ├── product-interior.jpg
 │   │   ├── product-laminates.jpg
+│   │   ├── product-laminates.svg
 │   │   ├── product-paints-alt.jpg
 │   │   ├── product-paints.jpg
-│   │   └── product-plywood.jpg
+│   │   ├── product-plywood.jpg
+│   │   ├── product-plywood.svg
+│   │   └── storefront.jpg
 │   └── js
 │       ├── main.js
 │       ├── tailwind-config.js

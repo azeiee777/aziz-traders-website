@@ -1,0 +1,62 @@
+<svg width="1280" height="853" viewBox="0 0 1280 853" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1280" height="853" fill="url(#bg)"/>
+<g opacity="0.18">
+<circle cx="210" cy="132" r="164" fill="#D3A45F"/>
+<circle cx="1144" cy="703" r="268" fill="#69412E"/>
+</g>
+<g opacity="0.28">
+<path d="M126 740H1156" stroke="#D2A76C" stroke-width="8" stroke-linecap="round"/>
+<path d="M171 692H1107" stroke="#4B2D20" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g opacity="0.38">
+<rect x="178" y="140" width="258" height="492" rx="18" fill="#3E241B"/>
+<rect x="194" y="156" width="226" height="460" rx="12" fill="url(#doorRear)"/>
+<path d="M231 228C231 176.086 273.086 134 325 134H353C404.914 134 447 176.086 447 228V362H231V228Z" fill="#C9985F"/>
+<rect x="238" y="205" width="202" height="385" rx="10" fill="url(#grainRear)"/>
+</g>
+<g>
+<rect x="436" y="88" width="410" height="614" rx="24" fill="#4A2B1E"/>
+<rect x="460" y="112" width="362" height="566" rx="18" fill="url(#frame)"/>
+<rect x="494" y="146" width="294" height="498" rx="16" fill="#8B5B38"/>
+<path d="M529 240C529 166.006 588.006 107 662 107H620C693.994 107 753 166.006 753 240V386H529V240Z" fill="#E0B072"/>
+<path d="M543 251C543 185.278 595.921 132 661 132C726.079 132 779 185.278 779 251V374H543V251Z" fill="url(#panel)"/>
+<rect x="543" y="406" width="236" height="204" rx="18" fill="url(#grainMain)"/>
+<rect x="577" y="440" width="168" height="136" rx="14" stroke="#E8BF87" stroke-width="8"/>
+<circle cx="715" cy="508" r="12" fill="#E2B24B"/>
+<rect x="608" y="415" width="109" height="16" rx="8" fill="#E8BF87" opacity="0.75"/>
+</g>
+<text x="110" y="116" fill="#EEDBBC" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="6">AZIZ TRADERS</text>
+<text x="110" y="172" fill="#F8EAD2" font-family="Cormorant Garamond, Georgia, serif" font-size="84" font-weight="700">Designer Wooden Doors</text>
+<text x="110" y="224" fill="#D2BA9A" font-family="Poppins, Arial, sans-serif" font-size="30">Solid wood, flush, and panel doors crafted for elegant interiors.</text>
+<defs>
+<linearGradient id="bg" x1="71" y1="38" x2="1210" y2="830" gradientUnits="userSpaceOnUse">
+<stop stop-color="#24140F"/>
+<stop offset="0.46" stop-color="#67412E"/>
+<stop offset="1" stop-color="#A87852"/>
+</linearGradient>
+<linearGradient id="doorRear" x1="194" y1="156" x2="420" y2="616" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9F6E47"/>
+<stop offset="1" stop-color="#5B3826"/>
+</linearGradient>
+<linearGradient id="frame" x1="460" y1="112" x2="822" y2="678" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B07A50"/>
+<stop offset="1" stop-color="#714628"/>
+</linearGradient>
+<linearGradient id="panel" x1="543" y1="132" x2="779" y2="374" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3D0A1"/>
+<stop offset="1" stop-color="#B77E4D"/>
+</linearGradient>
+<pattern id="grainRear" width="128" height="128" patternUnits="userSpaceOnUse">
+<rect width="128" height="128" fill="#AF7B51"/>
+<path d="M8 21C37 3 91 3 122 21" stroke="#E7C38F" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<path d="M5 63C42 47 84 47 120 63" stroke="#6D432A" stroke-width="3" stroke-linecap="round" opacity="0.48"/>
+<path d="M8 104C43 86 86 86 124 104" stroke="#F3DAB1" stroke-width="4" stroke-linecap="round" opacity="0.38"/>
+</pattern>
+<pattern id="grainMain" width="144" height="144" patternUnits="userSpaceOnUse">
+<rect width="144" height="144" fill="#8F5E3A"/>
+<path d="M0 24C32 5 75 5 108 24C124 33 134 34 144 30" stroke="#E5BD88" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+<path d="M0 72C36 55 74 55 111 72C126 80 136 81 144 77" stroke="#6E4329" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+<path d="M0 120C30 102 76 102 111 120C126 128 136 129 144 125" stroke="#FFD8A6" stroke-width="4" stroke-linecap="round" opacity="0.42"/>
+</pattern>
+</defs>
+</svg>

@@ -63,6 +63,71 @@
             width: 100%;
         }
 
+        .brand-lockup {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand-mark {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #C9A227, #E6C655);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 24px rgba(201, 162, 39, .35);
+        }
+
+        .brand-mark span {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #2C1A15;
+            letter-spacing: .04em;
+            line-height: 1;
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .brand-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.9rem;
+            font-weight: 700;
+            letter-spacing: .04em;
+            color: #fff;
+            line-height: .9;
+        }
+
+        .brand-subtitle {
+            color: rgba(239, 235, 233, .82);
+            text-transform: uppercase;
+            letter-spacing: .24em;
+            font-size: .62rem;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        .footer-brand .brand-mark {
+            width: 42px;
+            height: 42px;
+            box-shadow: none;
+        }
+
+        .footer-brand .brand-title {
+            font-size: 1.7rem;
+            color: #fff;
+        }
+
+        .footer-brand .brand-subtitle {
+            color: rgba(215, 204, 200, .66);
+        }
+
         /* ── HERO ── */
         .hero-section {
             min-height: 100vh;
@@ -353,6 +418,45 @@
             color: #C9A227;
         }
 
+        .social-icon-btn {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .25s ease;
+        }
+
+        .social-icon-btn svg {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+        }
+
+        .social-icon-btn.phone,
+        .social-icon-btn.map {
+            background: #4E342E;
+            color: #fff;
+        }
+
+        .social-icon-btn.phone:hover,
+        .social-icon-btn.map:hover {
+            background: #C9A227;
+            color: #2C1A15;
+            transform: translateY(-1px);
+        }
+
+        .social-icon-btn.whatsapp {
+            background: #16A34A;
+            color: #fff;
+        }
+
+        .social-icon-btn.whatsapp:hover {
+            background: #22C55E;
+            transform: translateY(-1px);
+        }
+
         /* ── FORM ── */
         .form-input {
             width: 100%;
@@ -503,4 +607,15 @@
             border-radius: 100px;
             font-size: .75rem;
             font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .brand-title {
+                font-size: 1.35rem;
+            }
+
+            .brand-subtitle {
+                font-size: .56rem;
+                letter-spacing: .2em;
+            }
         }
